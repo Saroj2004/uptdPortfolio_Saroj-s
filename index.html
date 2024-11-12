@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saroj"s corner</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Ephesis&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    </head>
+    
+</head>
+<body>
+    <nav>
+       
+        <ul id="navLinks" class="nav-links">
+            <li><a  href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="nav-toggle" id="navToggle" onclick="toggleMenu()">☰</div>
+
+        
+        <!-- Dark Mode Toggle Button -->
+        <button id="darkModeToggle" onclick="toggleDarkMode()">🌙</button>
+    </nav>
+    <div  class="intropart">
+        <div class="name">
+            <h4 id="name" class="saroj_port_name">Saroj's Portfolio</h4>
+        </div>
+        <div id="home" class="intro_name">
+            <h3 class="main_name">Hello<span  style="color:#feb901;">!</span> I'm <span style="color:#feb901;">Saroj Medipakala</span></h3>
+            
+            <h5 class="sub_text"></h5> <!-- This element will display the typing effect -->
+
+
+            <div class="contact_btns">
+              
+                    <button onclick="downloadResume()" class="resume_btn"> <i class="fas fa-download"></i> Resume</button>
+   
+
+                <a href="#footer">
+
+                    <button class="contact_info_btn">Contact</button>
+                </a>
+              
+            </div>
+
+            <div  class="profile_box">
+                <img class="profile_box_pic" alt="profile_picture" src="profile.jpg">
+            </div>
+            <div class="banner">
+            
+                <div class="ban_html">
+                    <i class="fab fa-html5"></i> &nbsp;HTML</div>
+                
+                <div class="ban_css"> <i class="fab fa-css3-alt"></i> &nbsp;CSS</div>
+                <div class="ban_javascript"><i class="fab fa-js-square"></i>&nbsp;JavaScript</div>
+                <div class="ban_figma"><i class="fab fa-figma"></i>&nbsp;Figma</div>
+                <div class="ban_mongo"><i class="fas fa-database"></i>&nbsp;MongoDB</div>
+                <div class="ban_java"><i class="fab fa-java"></i>&nbsp;Java</div>
+            </div>
+        </div>
+
+    </div>
+   
+
+
+    
+    <div  class="about_section">
+        <h2 class="abt_me" id="about">About Me </h2>
+        <div class="desc_box">
+            <p class=about_intro_para>A passionate frontend developer with a focus on
+                creating responsive and user-friendly web applications.
+                My background in Data Science has equipped me with strong analytical skills,
+            while my expertise on UI/UX design using Figma helps me build intuitive interfaces.
+                As a final-year B.Tech student,Iam eager to explore innovative opportunities to grow and contribute. 
+                <br> Let's connect and create something amazing!</p>
+        </div>
+        <button class="connect_btn"><a href="#footer" style="text-decoration: none; color: inherit;">Connect</a></button>
+
+        <div class="education_Sec">
+            <h3 class="education_heading">Education</h3>
+            <div class="education_cards">
+                <div class="card1_btech">
+                    <div class="blurcard"></div>
+                    <div class="date_card1"> <i class="fas fa-calendar-alt"></i>  &nbsp;2022-2025</div>
+                    <div class="graduation_card1"><i class="fas fa-graduation-cap"></i> UG</div>
+                    <div class="btech">B.TECH</div>
+                    <div class="branch_card1">ECE</div>
+                    <h4>Electronics and communication.eng</h4>
+                    <p class="klu"><i class="fas fa-university"></i> KL Deemed to be University</p>
+                    <p class="location"><i class="fas fa-location"></i> Vijayawada, AP, India</p>
+                </div>
+
+            <!-- --> 
+            <div class="card2_diploma">
+                <div class="blurcard"></div>
+                <div class="date_card1"> <i class="fas fa-calendar-alt"></i>  &nbsp;2019-2022</div>
+                <div class="graduation_card1"><i class="fas fa-graduation-cap"></i> Diploma</div>
+                <div class="btech">Diploma</div>
+                <div class="branch_card1">ECE</div>
+                <h4>Electronics and communication.eng</h4>
+                <p class="klu"><i class="fas fa-university"></i> AITAM</p>
+                <p class="location"><i class="fas fa-location"></i> Tekkali, AP, India</p>
+            </div>
+                    
+
+                
+
+                <!--  -->
+                <div class="card3_schooling">
+                    <div class="blurcard"></div>
+                    <div class="date_card1"> <i class="fas fa-calendar-alt"></i>  &nbsp;2022-2025</div>
+                    <div class="graduation_card1"><i class="fas fa-graduation-cap"></i> SSC</div>
+                    <div class="btech">APSSC</div>
+                    <h3>Secondary School Of Education</h3>
+                    <p class="klu"><i class="fas fa-university"></i> Victory English Medium</p>
+                    <p class="location"><i class="fas fa-location"></i> Srikakulam, AP, India</p>
+
+                </div>
+                <div id="projects" class="project">
+                    <h2>Projects</h2>
+                    <div  class="project-item">
+                        <label class="project-label" for="ise">Image Search Engine (ISE) <span class="toggle">+</span></label>
+                        <div class="ise content"> Image Search Engine, leverages JavaScript functionality to integrate with an API for efficient image search. It allows users to quickly find and display images based on specific queries, enhancing user experience with fast and accurate search results</div>
+                    </div>
+                    <div class="project-item">
+                        <label class="project-label" for="ehr"> Electronic Health Records (EHR) <span class="toggle">+</span></label>
+                        <div class="ehr content"> The EHR project leverages data science techniques to analyze chronic kidney disease data, using predictive models for early diagnosis. It visualizes insights through Power BI, helping healthcare professionals make data-driven decisions. This project showcases the intersection of healthcare and data science to improve patient outcomes.</div>
+                    </div>
+                    <div class="project-item">
+                        <label class="project-label" for="aeroway">AEROWAY APP UI Desgin<span class="toggle">+</span></label>
+                        <div class="aeroway content">I designed the user interface for a flight booking application using wireframes and prototypes in Figma. The layout focuses on intuitive navigation and user-friendly interactions. My design ensures a seamless booking experience with clear visual elements and easy-to-follow steps.</div>
+                    </div>
+                    <div class="project-item">
+                        <label class="project-label" for="ecommerce">E-commerce <span class="toggle">+</span></label>
+                        <div class="ecommerce content">I designed an e-commerce shopping website using HTML, CSS, and JavaScript, focusing on creating a visually appealing interface with CSS animations. While the website does not feature a responsive layout, it offers smooth user interactions and animated transitions for an engaging shopping experience</div>
+                    </div>
+                    <div class="project-item">
+                        <label class="project-label" for="netflix">Netflix Clone <span class="toggle">+</span></label>
+                        <div class="netflix content">I created a Netflix clone as part of a task assigned during my virtual internship with Bharth. The project closely replicates the layout and features of the original Netflix site, offering users a similar browsing and viewing experience. Using HTML, CSS, and JavaScript, I implemented the core elements, ensuring a smooth and engaging interface</div>
+                    </div>
+                    <div class="project-item">
+                        <label class="project-label" for="Iphone">To-Do-List  <span class="toggle">+</span></label>
+                        <div class="iphone content">I created a To-Do List application using HTML, CSS, and JavaScript. The app allows users to easily add tasks, mark them as completed with a checkmark, and remove tasks when done. It provides a simple and intuitive way to manage daily tasks, helping users stay organized</div>
+                    </div>
+                    <div class="project-item">
+                        <label class="project-label" for="urlshortner">URL-Shortner <span class="toggle">+</span></label>
+                        <div class="urlshortner content">URL Shortener application using JavaScript, enabling users to input long URLs and generate short, easy-to-share links. This tool enhances convenience and saves space for sharing links across platforms.</div>
+                    </div>
+                </div>
+
+                <!--  -->
+
+                <div class="skills">
+                    <h3>Skills</h3>
+                    <div class="skills-container">
+                        <div class="skill-item html_skill"><i class="fas fa-code"></i> HTML</div>
+                        <div class="skill-item css_skill"><i class="fas fa-paint-brush"></i> CSS</div>
+                        <div class="skill-item js_skill"><i class="fas fa-cogs"></i> JavaScript</div>
+                        <div class="skill-item java_skill"><i class="fab fa-java"></i> Java</div>
+                        <div class="skill-item mongo_skill"><i class="fas fa-server"></i> MongoDB</div>
+                        <div class="skill-item sql_skill"><i class="fas fa-database"></i> SQL</div>
+                        <div class="skill-item figma_skill"><i class="fab fa-figma"></i> Figma</div>
+                        <div class="skill-item react_skill"><i class="fab fa-react"></i> React</div>
+                    </div>
+                </div>
+               
+                
+                
+                
+          
+    
+        </div>
+        <div class="do">
+           <h3>What I Do?</h3>
+            <div class="webdev">
+                <i class="fas fa-code"></i> Web Development<br>
+            </div>
+            <div class="uiux">
+                <i class="fas fa-pencil-ruler"></i> UI/UX Design
+            </div>
+            <div class="databases">
+                <i class="fas fa-database"></i> Databases
+            </div>
+        </div>
+
+        <div class="links">
+            <h3>Connect Me</h3>
+            <div id="contact" class="icon-container">
+                <div class="linkedin">
+                    <a href="https://www.linkedin.com/in/saroj-medipakala-a912261a4/" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    
+                </div>
+                <div class="git">
+                    <a href="https://github.com/Saroj2004" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                   
+                </div>
+                <div class="email">
+                    <a href="mailto:medipakalabrahmasaroj29@gmail.com" target="_blank">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                 
+                </div>
+            </div>
+        </div>
+
+        <p id="footer"  class="foot">@2024 ALL RIGHTS RESERVED.<span class="foot_name">SAROJ</span></p>
+        
+        
+
+        
+    
+    </div>
+  
+
+
+   
+    
+</body>
+<script src="script.js"></script>
+</html>
